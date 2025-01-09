@@ -17,8 +17,6 @@ int main() {
     
     string str="document.pdf";
 
-    
-    
     findchar(str);
 
     return 0;

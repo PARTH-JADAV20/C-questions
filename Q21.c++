@@ -1,25 +1,25 @@
-// #include <iostream>
-// #include <string>
-// using namespace std;
+#include <iostream>
+#include <string>
+using namespace std;
 
-// void capti(string str){
-//     for (int i=0; i<str.length(); i++){
-//         if (str[i] >= 'a' && str[i] <= 'z') { 
-//             str[i] = str[i] - 32; 
-//         }
-//     }
-//     cout <<str;
-// }
+void capti(string str){
+    for (int i=0; i<str.length(); i++){
+        if (str[i] >= 'a' && str[i] <= 'z') { 
+            str[i] = str[i] - 32; 
+        }
+    }
+    cout <<str;
+}
 
-// int main() {
+int main() {
     
-//     string str="hello";
+    string str="hello";
     
     
-//     capti(str);
+    capti(str);
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 
